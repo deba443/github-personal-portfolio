@@ -1,0 +1,45 @@
+.line {
+    margin: auto auto;
+    max-width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+  }
+  .li-start {
+    flex: 1;
+    height: 1px;
+    border: 1px solid #f47272;
+    background-color: #f47272;
+  }
+  
+  .li-mid {
+    width: 362px;
+    text-align: center;
+    font-family: $font-play-fair-display;
+    font-style: italic;
+    font-size: 25px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  @media all and (max-width:412px){
+    body{
+      .li-mid{
+        font-size: 20px;
+        width: 277px;
+      }
+      .li-start{
+        width: 37px;
+      }
+      .line{
+        gap: 10px;
+        padding: 0px 21px;
+        padding-top: 15px;
+      }
+    }
+  }

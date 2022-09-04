@@ -1,0 +1,95 @@
+/*This section contains styling of news paper brands*/
+
+.complete-newspaper-box {
+    max-width: 1366px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.newspaper-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    // padding-left: 82px;
+    padding-top: 42px;
+    padding-bottom: 60px;
+    gap: 82px;
+}
+  
+.newspaper-imgs {
+    width: 348px;
+    height: 214px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+    background: #f2f1f1;
+    position: relative;
+  }
+.newspaper-imgs p {
+    font-family:$font-play-fair-display;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.newspaper-imgs div{
+  position: relative;
+}
+.newspaper-imgs .newspaper-imgs-info{
+  position: absolute;
+  display: none;
+  bottom: 0;
+  right: -26px;
+
+}
+.newspaper-imgs:hover .newspaper-imgs-info{
+  display: block;
+}
+@media all and (max-width:800px){
+  body{
+    .newspaper-box{
+      gap: 62px;
+    }
+    .newspaper-imgs{
+      width: 323px;
+      height: 204px;
+      gap: 18px;
+    }
+    .newspaper-imgs p{
+      font-size: 16px;
+    }
+  }
+}
+@media all and (max-width:412px){
+  body{
+    .newspaper-imgs{
+      width: 146.6px;
+      height: 90.1px;
+      gap: 21px;
+    }
+    .newspaper-imgs img{
+      width: 100%;
+    }
+    .newspaper-imgs p{
+      font-size: 16px;
+    }
+    .newspaper-box{
+      gap: 60px;
+    }
+    .newspaper-imgs div img {
+      width: 19px;
+      height: 19px;
+    }
+    .complete-newspaper-box{
+      align-items: flex-start;
+    }
+    .mobile-line2{
+      padding-left: 20px;
+    }
+
+  }
+}

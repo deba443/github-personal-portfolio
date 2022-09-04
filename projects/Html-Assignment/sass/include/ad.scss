@@ -1,0 +1,111 @@
+.ad {
+  display: flex;
+  max-width: 1366px;
+  margin: auto auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  gap: 40px;
+}
+.ad-template {
+  background-image: linear-gradient(
+    94deg,
+    #ffffff 0%,
+    #ffffff 21%,
+    #ffffff 61%,
+    #f5f5f5 80%
+  );
+  border: 1px solid #e8e8e8;
+  box-shadow: -3px 3px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 395px;
+  height: 290px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.ad-template div {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 29px;
+  padding-left: 23px;
+}
+.ad-template-para {
+  padding-bottom: 20px;
+  font-family: $font-play-fair-display;
+  font-size: 30px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 44px;
+  text-shadow: 0 5px 9px rgba(255, 255, 255, 0.7);
+}
+.ad-template-button {
+  background: #dc3737;
+  width: 135.4px;
+  height: 49px;
+  border: none;
+  font-family: $font-sans-pro;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+.ad-template-info {
+  display: none;
+}
+.ad-template-bg {
+  width: 100%;
+}
+.ad-template .ad-template-info {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: none;
+}
+.ad-template:hover .ad-template-info {
+  display: block;
+}
+@media all and (max-width:1280px){
+    .ad{
+      padding: 20px 40px;
+
+    }
+    
+  }
+@media all and (max-width:800px){
+  body{
+    .ad-template{
+     width:  213px;
+     height: 200px;
+    }
+    .ad-template div p{
+      font-size: 16px;
+    }
+    .ad-template div button{
+      font-size: 14px;
+      width: 94px;
+      height: 42px;
+    }
+
+  }
+
+}
+@media all and (max-width:412px){
+  body{
+    .ad{
+      padding: 0px 0px;
+      justify-content: flex-start;
+      padding-left: 10px;
+      padding-right: 10px;
+      gap: 10px;
+      padding-top: 24px;
+    }
+    .ad-template{
+      width: 190px;
+      height: 190px;
+
+    }
+  }
+}

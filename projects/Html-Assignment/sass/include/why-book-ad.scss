@@ -1,0 +1,97 @@
+/* This container is used for the section which contain why book an ad with us */
+.why-book-ad {
+    max-width: 1366px;
+    margin: auto auto;
+    padding: 30px 52px;
+    // padding-left: 52px;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
+}
+legend {
+    padding-left: 34px;
+    padding-right: 34px;
+    font-family: $font-play-fair-display;
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 0;
+}
+  
+.why-book-ad--container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 84px;
+    justify-content: flex-start;
+}
+.why-book-ad--container-same {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 44%;
+}
+.why-book-ad--container-same p {
+    font-family: $font-sans-pro;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.mobile_Book-ad{
+    display: none;
+}
+
+@media all and (max-width:800px){
+    body{
+        .why-book-ad--container{
+            gap: 57px;
+        }
+        .why-book-ad--container-same p{
+            font-size: 15px;
+        }
+    }
+}
+@media all and (max-width:768px){
+    body{
+        .why-book-ad{
+            padding: 30px 25px;
+        }
+        .why-book-ad legend{
+            font-size: 20px;
+        }
+
+    }
+}
+@media all and (max-width:412px){
+    body{
+        .why-book-ad{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .why-book-ad fieldset{
+            display: none;
+        }
+
+        .mobile_Book-ad{
+            display: block;
+        }
+        .mobile_Book-ad .why-book-ad--container{
+            padding-top: 43px;
+        }
+        .why-book-ad--container{
+            gap: 25px;
+            padding-left: 25px;
+            padding-bottom: 60px;
+        }
+        .why-book-ad--container-same{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 16px;
+        }
+
+
+    }
+}
+  

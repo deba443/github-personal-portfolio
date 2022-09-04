@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="49px" viewBox="0 0 52 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>shopping</title>
+    <desc>Created with Sketch.</desc>
+    <g id="final-web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.main-page-final-new-copy" transform="translate(-718.000000, -1205.000000)">
+            <g id="Group-7-Copy-6" transform="translate(694.000000, 1181.000000)">
+                <g id="shopping" transform="translate(24.000000, 24.000000)">
+                    <polygon id="Path-89" fill="#E0E0E0" points="1 46.5351204 43.3853211 47.3608085 38.2468518 9.92961583"></polygon>
+                    <path d="M43.9867399,9.17961583 L52.0129659,45.2396119 L46.918,43.661 L44.2167821,47.9096158 L44.2476389,48.1277492 L0.0157821412,47.2660896 L10.7086044,9.17961583 L43.9867399,9.17961583 Z M37.592,10.679 L11.845,10.679 L1.984,45.804 L42.523,46.593 L37.592,10.679 Z M42.784,10.679 L39.1067821,10.6796158 L43.9007821,45.6106158 L46.266978,41.8891541 L49.986,43.041 L42.784,10.679 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+                    <path d="M26.8235558,0 C30.5952768,0 33.6677386,2.99388434 33.7941208,6.73483252 L33.7981651,6.97460937 L33.7981651,9.86816406 L29.7981651,9.86816406 L29.7981651,6.97460937 C29.7981651,5.33177798 28.4663872,4 26.8235558,4 C25.2393969,4 23.9444701,5.23834968 23.853996,6.79982848 L23.8489464,6.97460937 L23.8489464,9.86816406 L19.8489464,9.86816406 L19.8489464,6.97460937 C19.8489464,3.12263898 22.9715854,0 26.8235558,0 Z" id="Path-90" fill="#DC3737" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

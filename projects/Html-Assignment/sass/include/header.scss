@@ -1,0 +1,145 @@
+/* Header */
+.total-header {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 2px solid #eb4c4c;
+
+  position: relative;
+  z-index: 100;
+}
+header {
+  max-width: 1366px;
+  margin: auto auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 175px;
+}
+
+.main_header-left {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.main_header-right {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #000000;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+li {
+  font-family: $font-sans-pro;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0;
+}
+.li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+ul li img {
+  width: 10px;
+  height: 6px;
+  margin-top: 4px;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.1px;
+}
+
+.phoneimg {
+  width: 33px;
+  height: 33px;
+}
+.header__divider {
+  border: 0;
+  max-width: 1366px;
+  margin: auto auto;
+  height: 2px;
+  background: #eb4c4c;
+}
+.main_header-mobile{
+  display: none;
+}
+@media all and (max-width:1280px){
+  body{
+    li{
+      font-size: 17px;
+    }
+  }
+}
+@media all and (max-width:1024px){
+  body{
+    header{
+      gap: 80px;
+    }
+    li{
+      font-size: 13px;
+    }
+    .total-header{
+      border-bottom: 2px solid #eb4c4c;
+    }
+  }
+}
+@media all and (max-width:800px){
+  body{
+    li{
+      font-size: 8px;
+
+    }
+    ul{
+      gap: 15px;
+    }
+    .main_header-left--img{
+      width: 200px;
+    }
+    
+  }
+}
+@media all and (max-width:412px){
+  body{
+    .main_header-right{
+      display: none;
+    }
+    .main_header-mobile{
+      display: block;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      justify-content: center;
+      padding-right: 11px;
+    }
+    .main_header-left--img{
+      width: 125px;
+      height: 30px;
+    }
+    .main_header-left{
+      margin: 0px;
+    }
+    .main_header-mobile--img img{
+      width: 22px;
+      height: 22px;
+    }
+    #menu_img{
+      width: 19px;
+      height: 19px;
+    }
+    header{
+      gap: 144px;
+      margin: auto auto;
+      padding: 0px 11px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+  }
+}

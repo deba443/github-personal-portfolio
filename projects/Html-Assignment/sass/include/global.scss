@@ -1,0 +1,13 @@
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$font-sans: "Open Sans", sans-serif;
+$font-sans-pro: "Source Sans Pro", sans-serif;
+$font-play-fair-display: "Playfair Display", serif;

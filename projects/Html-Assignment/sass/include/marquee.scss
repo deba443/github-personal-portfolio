@@ -1,0 +1,26 @@
+/* section 2 styling which are present in between marquee tag*/
+.marquee-newspaper{
+    display: flex;
+    gap: 22px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.t {
+    width: 1px;
+    height: 28px;
+    border-left: 1px solid #666666;
+    background-color: #666666;
+}
+@media all and (max-width:412px){
+    body{
+        .marquee-newspaper{
+            gap: 11.4px;
+        }
+        .y img{
+            width: 140px;
+            height: auto;
+        }
+    }
+}

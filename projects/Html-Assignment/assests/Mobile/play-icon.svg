@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>play-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.Landing-page-final" transform="translate(-278.000000, -13.000000)" fill="#EB4C4C" fill-rule="nonzero">
+            <g id="Group-33" transform="translate(278.000000, 13.000000)">
+                <path d="M12,0.25 C18.4893458,0.25 23.75,5.51065419 23.75,12 C23.75,18.4893458 18.4893458,23.75 12,23.75 C5.51065419,23.75 0.25,18.4893458 0.25,12 C0.25,5.51065419 5.51065419,0.25 12,0.25 Z M12,1.75 C6.33908131,1.75 1.75,6.33908131 1.75,12 C1.75,17.6609187 6.33908131,22.25 12,22.25 C17.6609187,22.25 22.25,17.6609187 22.25,12 C22.25,6.33908131 17.6609187,1.75 12,1.75 Z M10,8 L15,12 L10,16 L10,8 Z" id="play-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>
